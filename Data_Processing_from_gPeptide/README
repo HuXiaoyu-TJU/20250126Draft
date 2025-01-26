@@ -1,0 +1,22 @@
+###Summary###
+
+# This section includes Python and R script files that process the quantitative expression matrix data from gPeptide software.
+# An expression matrix table for demostrating the procedure is provided as "test_expression_matrix.csv"
+
+
+###Depedencies###
+
+# Python 3.9.7+ and R 4.3.0+ are needed to run the script files.
+# For Python scripts: matplotlib and seaborn for your specific Python version are needed. Any IDE such as Spyder, Pycharm is recommanded.
+# For R scripts: missForest, sva and bladderbatch libraries for your specific R version are needed. RStudio is recommanded.
+
+
+###Protocol Steps###
+
+1) Set the working directory to the folder named "Data_Processing_from_gPeptide" both in Python and R environment (or Python IDE/RStudio).
+2) Run "ID_FIlter.py" script file using Python or Python IDE. A table named "Expression_Matrix.csv" will be generated, containing N-glycopeptides identified within at least 11 organs out of 18.
+3) Run "Imputation.R" script file using R or RStudio. A table named "Expression_Matrix_Imputed.csv" will be generated.
+4) Run "Batch_Effect_Correction.R" script file using R or RStudio. A table named "Expression_Matrix_BEC.csv" will be generated.
+5) Run "Normalization.py" script file using Python or Python IDE. Two tables named "Expression_Matrix_Norm.csv" and "Expression_Matrix_for_Cluster.csv" will be generated.
+6) Run "Clustering.py" script file using Python or Python IDE. A table named "Expression_Matrix_Clustered.csv" and a hierarchical clustering figure named "cluster_map.png" will be generated.
+ 
