@@ -7,5 +7,5 @@
 ### "GlyStructure_Convertor_ver1.1.2" is to convert gPeptide, pglyco and glycoworkbench carbohydrate structure libraries to each other.
 
 ### Python 3.9.7+ and R 4.3.0+ are needed to run the script files.
-# For Python scripts: Any IDE such as Spyder, Pycharm is recommanded.
-# For R scripts: RStudio is recommanded.
+### For Python scripts: Any IDE such as Spyder, Pycharm is recommanded.
+### For R scripts: RStudio is recommanded.
